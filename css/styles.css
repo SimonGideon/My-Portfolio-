@@ -17,15 +17,17 @@
   --font-fam: 'Poppins', sans-serif;
   --fade-bg: #ebebff;
   --icon-color: #505f79;
+  --semi-bold: 700;
+  --text-color2: #7f8cff;
 }
 
 span {
-    color: var(--primary-color);
-    font-family: var(--font-fam);
-    font-weight: 700;
-    font-size: 1.5 rem;
-    line-height: 20px;
-  }
+  color: var(--primary-color);
+  font-family: var(--font-fam);
+  font-weight: 700;
+  font-size: 1.5 rem;
+  line-height: 20px;
+}
 
 @media (max-width: 768px) {
   .nav-menu {
@@ -36,10 +38,51 @@ span {
 
   nav {
     border: 3px solid var(--primary-color);
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
   }
 
+  #hero {
+    background-image: url(/images/header-bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: absolute;
+  }
+
+  .headlines {
+    margin: 12px 24px 0 24px;
+  }
+
+  .headlines h1 {
+    font-family: var(--font-fam);
+    color: var(--text-color);
+    font-weight: var(--semi-bold);
+    line-height: 3.25rem;
+    font-size: 3rem;
+  }
+
+  .headline-title h1 {
+    margin: 114px 0 0 0;
+  }
+
+  .hero-text {
+    font-family: var(--font-fam);
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 12px;
+  }
+
+  .connect {
+    color: var(--text-color2);
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: var(--font-fam);
+    margin-top: 12px;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 10rem;
+    margin-top: 12px;
+  }
 }
