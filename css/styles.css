@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
+/* resets */
 * {
   margin: 0;
   padding: 0;
@@ -23,8 +24,14 @@
 }
 
 body {
-    background-color: var(--main-bg);
+  background-color: var(--main-bg);
 }
+
+a {
+  text-decoration: none;
+}
+
+/* end of resets */
 
 span {
   color: var(--primary-color);
@@ -34,66 +41,68 @@ span {
   line-height: 20px;
 }
 
+/* header section */
+
 header {
-    background-color: var(--secondary-color);
-  }
-  nav {
-    border: 3px solid var(--secondary-color);
-  }
+  background-color: var(--secondary-color);
+  border: 3px solid var(--secondary-color);
+}
 
-  .nav-menu {
-    display: flex;
-    margin: 14px 24px 14px 24px;
-    justify-content: space-between;
-  }
+.nav-menu {
+  display: flex;
+  margin: 14px 24px 14px 24px;
+  justify-content: space-between;
+  align-items: center;
+}
 
+/* hero section */
 
+#hero {
+  background-image: url(/images/header-bg.png);
+  height: 42rem;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-color: var(--secondary-color);
+  border-bottom-left-radius: 100px;
+}
 
-  #hero {
-    background-image: url(/images/header-bg.png);
-    height: 42rem;
-    background-repeat: no-repeat;
-    position: absolute;
-    background-color: var(--secondary-color);
-    border-bottom-left-radius: 100px;
-  }
+.headlines {
+  margin: 12px 24px 0 24px;
+}
 
-  .headlines {
-    margin: 12px 24px 0 24px;
-  }
+.headlines h1 {
+  font-family: var(--font-fam);
+  color: var(--text-color);
+  font-weight: var(--semi-bold);
+  line-height: 3.25rem;
+  font-size: 3rem;
+}
 
-  .headlines h1 {
-    font-family: var(--font-fam);
-    color: var(--text-color);
-    font-weight: var(--semi-bold);
-    line-height: 3.25rem;
-    font-size: 3rem;
-  }
+.headline-title h1 {
+  margin: 114px 0 0 0;
+}
 
-  .headline-title h1 {
-    margin: 114px 0 0 0;
-  }
+.hero-text {
+  font-family: var(--font-fam);
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 12px;
+}
 
-  .hero-text {
-    font-family: var(--font-fam);
-    color: var(--text-color);
-    font-weight: 400;
-    font-size: 1rem;
-    margin-top: 12px;
-  }
+/* connect btns */
 
-  .connect {
-    color: var(--text-color2);
-    font-weight: 500;
-    font-size: 1rem;
-    font-family: var(--font-fam);
-    margin-top: 12px;
-  }
+.connect {
+  color: var(--text-color2);
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: var(--font-fam);
+  margin-top: 12px;
+}
 
-  .social-icons {
-    display: flex;
-    justify-content: space-between;
-    width: 10rem;
-    margin-top: 12px;
-  }
-
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 10rem;
+  margin-top: 12px;
+}
