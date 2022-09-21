@@ -33,7 +33,7 @@ a {
 
 /* end of resets */
 
-span {
+.nav-menu a {
   color: var(--primary-color);
   font-family: var(--font-fam);
   font-weight: 700;
@@ -105,4 +105,5 @@ header {
   justify-content: space-between;
   width: 10rem;
   margin-top: 12px;
+  list-style: none;
 }
