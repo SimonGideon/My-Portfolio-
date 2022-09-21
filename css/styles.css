@@ -19,6 +19,11 @@
   --icon-color: #505f79;
   --semi-bold: 700;
   --text-color2: #7f8cff;
+  --main-bg: #e5e5e5;
+}
+
+body {
+    background-color: var(--main-bg);
 }
 
 span {
@@ -29,22 +34,28 @@ span {
   line-height: 20px;
 }
 
-@media (max-width: 768px) {
+header {
+    background-color: var(--secondary-color);
+  }
+  nav {
+    border: 3px solid var(--secondary-color);
+  }
+
   .nav-menu {
     display: flex;
     margin: 14px 24px 14px 24px;
     justify-content: space-between;
   }
 
-  nav {
-    border: 3px solid var(--primary-color);
-  }
+
 
   #hero {
     background-image: url(/images/header-bg.png);
-    height: 100vh;
+    height: 42rem;
     background-repeat: no-repeat;
     position: absolute;
+    background-color: var(--secondary-color);
+    border-bottom-left-radius: 100px;
   }
 
   .headlines {
@@ -85,4 +96,4 @@ span {
     width: 10rem;
     margin-top: 12px;
   }
-}
+
