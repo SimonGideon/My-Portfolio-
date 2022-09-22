@@ -229,3 +229,34 @@ button {
   margin-top: 1.38em;
   
 }
+
+/* technology-lan */
+.technology-lan {
+  margin-top: 2em;
+  padding: 1.5em;
+}
+
+.technology-lan ul {
+  list-style: none;
+}
+
+.tec-list-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner-list {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.nest-sub-list {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  align-items: center;
+  gap: 1em;
+  margin: 0.5em;
+  background-color: var(--fade-bg);
+  padding: 0.56em;
+  border-radius: 8px;
+}
