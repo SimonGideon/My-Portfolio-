@@ -240,7 +240,7 @@ button {
   list-style: none;
 }
 
-.tec-list-1 {
+.tec-list {
   display: flex;
   justify-content: space-between;
 }
@@ -259,4 +259,11 @@ button {
   background-color: var(--fade-bg);
   padding: 0.56em;
   border-radius: 8px;
+  color: #253858;
+}
+
+.tec-2,
+.tec-3 {
+  border-bottom: 1px solid #dfe1e6;
+  padding: 1em;
 }
