@@ -21,10 +21,12 @@
   --semi-bold: 700;
   --text-color2: #7f8cff;
   --main-bg: #e5e5e5;
+  --p-txt-color: #344563;
 }
 
 body {
   background-color: var(--main-bg);
+  font-family: var(--font-fam);
 }
 
 a {
@@ -58,10 +60,10 @@ header {
 /* hero section */
 
 #hero {
+  display: flex;
   background-image: url(/images/header-bg.png);
   height: 42rem;
   background-repeat: no-repeat;
-  position: absolute;
   background-color: var(--secondary-color);
   border-bottom-left-radius: 100px;
 }
@@ -106,4 +108,161 @@ header {
   width: 10rem;
   margin-top: 12px;
   list-style: none;
+}
+
+/* work section */
+
+.card {
+  display: grid;
+  background-color: var(--secondary-color);
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  padding: 16px;
+  margin: auto;
+}
+
+.card h2 {
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--text-color);
+}
+
+.projects {
+  padding: 24px;
+}
+
+.compn-lan {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr 2fr);
+}
+
+.card img {
+  width: 100%;
+}
+
+.compn-lan,
+.card-body {
+  margin-top: 0.5em;
+}
+
+.compn-lan ul {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.compn-lan p {
+  color: var(--p-txt-color);
+}
+
+.compn-lan ul li {
+  color: #7a869a;
+}
+
+.compn-lan ul li,
+.compn-lan p {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.card-body {
+  font-size: 15px;
+  color: var(--p-txt-color);
+}
+
+.technology {
+  margin-top: 12px;
+}
+
+.technology ul {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+}
+
+.technology ul li {
+  background-color: var(--fade-bg);
+  border-radius: 8px;
+  padding: 4px 12px;
+  color: var(--enabled-text);
+}
+
+button {
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+  color: var(--primary-color);
+  padding: 0.75em;
+}
+
+.card button {
+  width: 7em;
+  height: 3em;
+  background-color: var(--secondary-color);
+  margin-top: 1.5em;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+/* About me section */
+.me-content {
+  padding: 24px;
+  display: grid;
+  background-color: var(--secondary-color);
+  border-top-right-radius: 5.6rem;
+}
+
+.me-content #span {
+  margin-top: 7rem;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: var(--text-color);
+}
+
+.about-details {
+  margin-top: 0.75rem;
+}
+
+.me-content button {
+  font-size: 1rem;
+  width: 8.6rem;
+  height: 3em;
+  background-color: var(--secondary-color);
+  margin-top: 1.38em;
+}
+
+/* technology-lan */
+.technology-lan {
+  margin-top: 2em;
+  padding: 1.5em;
+}
+
+.technology-lan ul {
+  list-style: none;
+}
+
+.tec-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner-list {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.nest-sub-list {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  align-items: center;
+  gap: 1em;
+  margin: 0.5em;
+  background-color: var(--fade-bg);
+  padding: 0.56em;
+  border-radius: 8px;
+  color: #253858;
+}
+
+.tec-2,
+.tec-3 {
+  border-bottom: 1px solid #dfe1e6;
+  padding: 1em;
 }
