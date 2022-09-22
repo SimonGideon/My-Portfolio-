@@ -50,6 +50,7 @@ header {
   background-color: var(--secondary-color);
   border: 3px solid var(--secondary-color);
   width: 100%;
+  top: 0px;
 }
 
 .nav-menu {
@@ -68,6 +69,7 @@ header {
   background-repeat: no-repeat;
   background-color: var(--secondary-color);
   border-bottom-left-radius: 100px;
+  margin-top: 4rem;
 }
 
 .headlines {
