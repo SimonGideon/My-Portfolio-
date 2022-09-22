@@ -46,8 +46,10 @@ a {
 /* header section */
 
 header {
+  position: fixed;
   background-color: var(--secondary-color);
   border: 3px solid var(--secondary-color);
+  width: 100%;
 }
 
 .nav-menu {
