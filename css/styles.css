@@ -50,7 +50,6 @@ header {
   background-color: var(--secondary-color);
   border: 3px solid var(--secondary-color);
   width: 100%;
-  top: 0px;
 }
 
 .nav-menu {
@@ -289,6 +288,7 @@ button {
   flex-direction: column;
   align-items: center;
 }
+
 .contact-header {
   color: var(--secondary-color);
   padding-top: 6rem;
@@ -296,11 +296,13 @@ button {
   flex-direction: column;
   align-items: center;
 }
+
 .contact-header span {
   font-weight: 700;
   font-size: 2rem;
   color: var(--secondary-color);
 }
+
 .contact-header p {
   text-align: center;
   margin-top: 0.75rem;
@@ -312,7 +314,7 @@ button {
   margin-top: 1rem;
 }
 
-.contact-form  ul {
+.contact-form ul {
   list-style: none;
 }
 
@@ -339,4 +341,3 @@ button {
   font-size: 1rem;
   font-weight: 500;
 }
-
