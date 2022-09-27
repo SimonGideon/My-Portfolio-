@@ -212,6 +212,7 @@ button {
   display: grid;
   background-color: var(--secondary-color);
   border-top-right-radius: 5.6rem;
+  padding-bottom: 7rem;
 }
 
 .me-content #span {
@@ -270,3 +271,40 @@ button {
   border-bottom: 1px solid #dfe1e6;
   padding: 1em;
 }
+
+/* contact-form */
+#contact-me {
+  background-color: var(--secondary-color);
+}
+
+.wrapper {
+  border-top-left-radius: 5rem;
+  background: var(--hover-btn);
+  max-width: 100%;
+  background-image: url("/images/form-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-header {
+  color: var(--secondary-color);
+  padding-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-header span {
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--secondary-color);
+}
+.contact-header p {
+  text-align: center;
+  margin-top: 0.75rem;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
