@@ -308,3 +308,25 @@ button {
   font-size: 1.25rem;
 }
 
+.contact-form {
+  margin-top: 1rem;
+}
+
+.contact-form  ul {
+  list-style: none;
+}
+
+.contact-form li * {
+  border-radius: 8px;
+  background: var(--secondary-color);
+  margin: 0.5rem;
+  border: 1px solid #cfd8dc;
+  height: 3rem;
+  width: 18.75rem;
+  padding: 15px;
+}
+
+.contact-form li textarea {
+  height: 10.62rem;
+}
+
