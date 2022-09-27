@@ -324,9 +324,19 @@ button {
   height: 3rem;
   width: 18.75rem;
   padding: 15px;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #b3bac5;
 }
 
 .contact-form li textarea {
   height: 10.62rem;
+}
+
+.contact-form button {
+  width: 8.75rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
