@@ -375,6 +375,31 @@ button:hover {
   }
 
   .nav-menu {
-    font-size: 1.5rem;
+    font-size: 150%;
   }
+
+  /* hero-section */
+  #hero {
+    display: flex;
+    background-image: url(/images/desktop-header-bg.svg);
+    background-size: 100%;
+    height: 100vh;
+  }
+
+  .headlines {
+    margin: 17% 16% 0 16%;
+  }
+
+  .headlines h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .hero-text {
+    font-weight: 400;
+    font-size: 1.7rem;
+  }
+
+
 }
