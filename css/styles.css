@@ -276,6 +276,11 @@ button {
   background-color: var(--secondary-color);
 }
 
+button:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
 .wrapper {
   border-top-left-radius: 5rem;
   background: var(--hover-btn);
