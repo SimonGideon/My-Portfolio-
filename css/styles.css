@@ -387,7 +387,7 @@ button:hover {
   }
 
   .headlines {
-    margin: 17% 16% 0 16%;
+    margin: 10% 16% 17% 16%;
   }
 
   .headlines h1 {
@@ -400,6 +400,18 @@ button:hover {
     font-weight: 400;
     font-size: 1.7rem;
   }
+/* desktop social icons */
+  .connect {
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+  }
 
+  .social-icons li a img {
+    width: 140%;
+  }
 
+  .social-icons {
+    width: 12rem;
+  }
 }
