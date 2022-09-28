@@ -385,6 +385,7 @@ button:hover {
     background-image: url(/images/desktop-header-bg.svg);
     background-size: 100%;
     height: 110vh;
+    margin-bottom: 3rem;
   }
 
   .headlines {
@@ -419,9 +420,14 @@ button:hover {
 
   /* work-section */
   .projects {
-    padding: 8.9rem;
+    padding-left: 8.9rem;
+    padding-right: 8.9rem;
+    padding-top: 4.5rem;
   }
-
+  
+  .about-me {
+    margin-top: 4rem;
+  }
   .card {
     grid-template-columns: repeat(2, 1fr);
     gap: 2.9rem;
