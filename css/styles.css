@@ -401,6 +401,7 @@ button:hover {
     font-weight: 400;
     font-size: 1.7vw;
   }
+
   /* desktop social icons */
   .connect {
     margin-top: 1rem;
@@ -461,10 +462,6 @@ button:hover {
     margin-top: 2.75rem;
   }
 
-  .card button {
-    min-width: 15%;
-  }
-
   /* about-me section */
   .me-content {
     padding: 8.87rem;
@@ -489,7 +486,7 @@ button:hover {
     margin-bottom: 12px;
   }
 
-  .social-icons {
+  #social-icons {
     margin-top: 26px;
   }
 
@@ -554,7 +551,7 @@ button:hover {
     height: 3vw !important;
   }
 
-  .wrapper {
+  #wrapper {
     background-image: url(/images/desktop_contact.svg);
   }
 }
