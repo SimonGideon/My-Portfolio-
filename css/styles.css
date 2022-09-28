@@ -446,4 +446,21 @@ button:hover {
     font-weight: 500;
     font-size: 18px;
   }
+
+  .card-body {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+  }
+
+  .technology {
+    margin-top: 1.5rem;
+  }
+
+  .card button {
+    margin-top: 2.75rem;
+  }
+
+  .card button {
+    width: calc(20% + 2%);
+  }
 }
