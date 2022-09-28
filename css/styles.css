@@ -440,7 +440,7 @@ button:hover {
   }
 
   .compn-lan li {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1.25vw !important;
   }
 
@@ -516,6 +516,10 @@ button:hover {
     font-size: 2.5vw;
   }
 
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 1vw;
+  }
   .contact-header p {
     font-size: 2.5vh;
     margin-top: 12px;
@@ -554,5 +558,16 @@ button:hover {
 
   #wrapper {
     background-image: url(/images/desktop_contact.svg);
+  }
+
+  /* reverse the nth child of project */
+  .work .projects:nth-child(odd) .card {
+    display: grid;
+    grid-auto-flow: dense;
+    direction: rtl;
+  }
+
+  .card :nth-child(2) {
+    direction: ltr;
   }
 }
