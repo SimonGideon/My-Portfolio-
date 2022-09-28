@@ -520,6 +520,7 @@ button:hover {
   .contact-form textarea {
     font-size: 1vw;
   }
+
   .contact-header p {
     font-size: 2.5vh;
     margin-top: 12px;
@@ -531,8 +532,8 @@ button:hover {
     padding-right: 27.25rem;
   }
 
-  .contact-form input,
-  .contact-form textarea {
+  #name,
+  #email {
     width: 27vw;
     margin: 13px;
   }
