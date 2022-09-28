@@ -424,10 +424,11 @@ button:hover {
     padding-right: 8.9rem;
     padding-top: 4.5rem;
   }
-  
+
   .about-me {
     margin-top: 4rem;
   }
+
   .card {
     grid-template-columns: repeat(2, 1fr);
     gap: 2.9rem;
