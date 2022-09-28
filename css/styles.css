@@ -492,4 +492,69 @@ button:hover {
   .social-icons {
     margin-top: 26px;
   }
+
+  .inner-list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nest-sub-list {
+    display: flex;
+    flex-direction: column;
+    min-width: 7.5vw;
+  }
+
+  .tec-1 {
+    font-size: 1.27vw;
+    margin-bottom: 2.25rem;
+  }
+
+  .tec-list {
+    font-size: 1.25vw;
+    margin-top: 1.5rem;
+  }
+
+  .contact-header span {
+    font-size: 2.5vw;
+  }
+
+  .contact-header p {
+    font-size: 2.5vh;
+    margin-top: 12px;
+  }
+
+  .wrapper {
+    display: flex;
+    padding-left: 27.25rem;
+    padding-right: 27.25rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 27vw;
+    margin: 13px;
+  }
+
+  .contact-form input {
+    height: 3vw;
+  }
+
+  .contact-form textarea {
+    height: 10.6vw;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    width: 10.87vw !important;
+    height: 3vw !important;
+  }
+
+  .wrapper {
+    background-image: url(/images/desktop_contact.svg);
+  }
 }
