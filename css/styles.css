@@ -392,20 +392,20 @@ button:hover {
   }
 
   .headlines h1 {
-    font-size: 500%;
+    font-size: 5vw;
     font-weight: 700;
     line-height: normal;
   }
 
   .hero-text {
     font-weight: 400;
-    font-size: 170%;
+    font-size: 1.7vw;
   }
   /* desktop social icons */
   .connect {
     margin-top: 1rem;
     font-weight: 500;
-    font-size: 140%;
+    font-size: 1.4vw;
   }
 
   .social-icons li a img {
@@ -429,28 +429,28 @@ button:hover {
   .card h2 {
     margin-top: 3rem;
     font-weight: 700;
-    font-size: 350%;
+    font-size: 3.5vw;
   }
 
   .compn-lan {
-    grid-template-columns: 1fr 3fr 5fr;
+    grid-template-columns: 1fr 3fr;
     gap: 2rem;
     margin-top: 1.25rem;
   }
 
   .compn-lan li {
     font-weight: 400;
-    font-size: 112.5% !important;
+    font-size: 1.25vw !important;
   }
 
   .compn-lan p {
     font-weight: 500;
-    font-size: 100%;
+    font-size: 1vw;
   }
 
   .card-body {
     margin-top: 2;
-    font-size: 120%;
+    font-size: 1.2vw;
   }
 
   .technology {
@@ -462,12 +462,24 @@ button:hover {
   }
 
   .card button {
-    width: 15%;
+    min-width: 15%;
   }
 
   /* about-me section */
-  .about-me {
-    display: flex;
-    flex-direction: row;
+  .me-content {
+    padding: 8.87rem;
+  }
+
+  .sub-cont {
+    display: flex !important;
+    flex: 1 1 auto;
+  }
+
+  #span {
+    font-size: 40px;
+  }
+
+  .technology-lan {
+    min-width: 60%;
   }
 }
