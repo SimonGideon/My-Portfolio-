@@ -360,11 +360,11 @@ button:hover {
 
 /* animations */
 @keyframes anime {
-  from {color: var(--secondary-color);}
+  from {color: var(--p-txt-color);}
   to {color: var(--primary-color);}
 }
 
-#nav-brand a{
+#nav-brand a {
   color: var(--primary-color);
   animation-name: anime;
   animation-duration: 4s;
