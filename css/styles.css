@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
 
 /* resets */
 * {
@@ -15,7 +15,7 @@
   --secondary-color: #ffff;
   --primary-color: #396df2;
   --text-color: #091e42;
-  --font-fam: 'Poppins', sans-serif;
+  --font-fam: "Poppins", sans-serif;
   --fade-bg: #ebebff;
   --icon-color: #505f79;
   --semi-bold: 700;
@@ -43,6 +43,10 @@ a {
   line-height: 20px;
 }
 
+nav ul {
+  display: none;
+}
+
 /* header section */
 
 header {
@@ -50,6 +54,7 @@ header {
   background-color: var(--secondary-color);
   border: 3px solid var(--secondary-color);
   width: 100%;
+  top: 0.1px;
 }
 
 .nav-menu {
@@ -173,6 +178,7 @@ header {
 }
 
 .technology {
+  display: flex;
   margin-top: 12px;
 }
 
@@ -345,4 +351,231 @@ button:hover {
   height: 3rem;
   font-size: 1rem;
   font-weight: 500;
+}
+
+/* Desktop-View */
+@media (min-width: 768px) {
+  /* desktop nav */
+  nav img {
+    display: none;
+  }
+
+  header {
+    height: 4.5rem;
+    padding-right: 7rem;
+    padding-left: 7rem;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    color: var(--p-txt-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .nav-menu {
+    font-size: 150%;
+  }
+
+  /* hero-section */
+  #hero {
+    display: flex;
+    background-image: url(/images/desktop-header-bg.svg);
+    background-size: 100%;
+    height: 110vh;
+    margin-bottom: 3rem;
+  }
+
+  .headlines {
+    margin: 10% 16% 17% 16%;
+  }
+
+  .headlines h1 {
+    font-size: 5vw;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .hero-text {
+    font-weight: 400;
+    font-size: 1.7vw;
+  }
+
+  /* desktop social icons */
+  .connect {
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 1.4vw;
+  }
+
+  .social-icons li a img {
+    width: 140%;
+  }
+
+  .social-icons {
+    width: 12rem;
+  }
+
+  /* work-section */
+  .projects {
+    padding-left: 8.9rem;
+    padding-right: 8.9rem;
+    padding-top: 4.5rem;
+  }
+
+  .about-me {
+    margin-top: 4rem;
+  }
+
+  .card {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.9rem;
+  }
+
+  .card h2 {
+    margin-top: 3rem;
+    font-weight: 700;
+    font-size: 3.5vw;
+  }
+
+  .compn-lan {
+    grid-template-columns: 1fr 3fr 3fr;
+    gap: 2rem;
+    margin-top: 1.25rem;
+  }
+
+  .compn-lan li {
+    font-weight: 300;
+    font-size: 1.25vw !important;
+  }
+
+  .compn-lan p {
+    font-weight: 500;
+    font-size: 1vw;
+    margin-right: 2rem;
+  }
+
+  .card-body {
+    margin-top: 2;
+    font-size: 1.2vw;
+  }
+
+  .technology {
+    margin-top: 1.5rem;
+  }
+
+  .card button {
+    margin-top: 2.75rem;
+  }
+
+  /* about-me section */
+  .me-content {
+    padding: 8.87rem;
+  }
+
+  .sub-cont {
+    display: flex !important;
+    flex: 1 1 auto;
+  }
+
+  #span {
+    font-size: 2.5vw;
+  }
+
+  .technology-lan {
+    min-width: 60%;
+  }
+
+  .about-details {
+    font-size: 1vw;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  #social-icons {
+    margin-top: 26px;
+  }
+
+  .inner-list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nest-sub-list {
+    display: flex;
+    flex-direction: column;
+    min-width: 7.5vw;
+  }
+
+  .tec-1 {
+    font-size: 1.27vw;
+    margin-bottom: 2.25rem;
+  }
+
+  .tec-list {
+    font-size: 1.25vw;
+    margin-top: 1.5rem;
+  }
+
+  .contact-header span {
+    font-size: 2.5vw;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 1vw;
+  }
+
+  .contact-header p {
+    font-size: 2.5vh;
+    margin-top: 12px;
+  }
+
+  .wrapper {
+    display: flex;
+    padding-left: 27.25rem;
+    padding-right: 27.25rem;
+  }
+
+  #name,
+  #email {
+    width: 27vw;
+    margin: 13px;
+  }
+
+  .contact-form input {
+    height: 3vw;
+  }
+
+  .contact-form textarea {
+    height: 10.6vw;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    width: 10.87vw !important;
+    height: 3vw !important;
+  }
+
+  #wrapper {
+    background-image: url(/images/desktop_contact.svg);
+  }
+
+  /* reverse the nth child of project */
+  .work .projects:nth-child(odd) .card {
+    display: grid;
+    grid-auto-flow: dense;
+    direction: rtl;
+  }
+
+  .card :nth-child(2) {
+    direction: ltr;
+  }
 }
