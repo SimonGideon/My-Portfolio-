@@ -205,6 +205,7 @@ button {
   border-radius: 8px;
   color: var(--primary-color);
   padding: 0.75em;
+  transform: 10s;
 }
 
 .card button {
@@ -288,6 +289,8 @@ button {
 }
 
 button:hover {
+  transform: scale(1.2);
+  margin-left: calc(+2%);
   background-color: #6070ff;
   color: white;
 }
@@ -360,23 +363,19 @@ button:hover {
 
 /* animations */
 @keyframes anime {
-  from {color: var(--p-txt-color);}
-  to {color: var(--primary-color);}
+  from {
+    color: var(--p-txt-color);
+  }
+
+  to {
+    color: var(--primary-color);
+  }
 }
 
 #nav-brand a {
   color: var(--primary-color);
   animation-name: anime;
   animation-duration: 4s;
-}
-
-button {
-  transform: 10s;
-}
-
-button:hover {
-  transform: scale(1.2);
-  margin-left: calc(+2%);
 }
 
 /* Desktop-View */
