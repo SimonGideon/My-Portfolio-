@@ -358,6 +358,25 @@ button:hover {
   font-weight: 500;
 }
 
+/* animations */
+@keyframes anime {
+  0% {right: 10vw;}
+  100% {left: 0vw;}
+}
+
+#nav-brand {
+  animation: anime 5s 1;
+}
+
+button {
+  transform: 10s;
+}
+
+button:hover {
+  transform: scale(1.2);
+  margin-left: calc(+2%);
+}
+
 /* Desktop-View */
 @media (min-width: 768px) {
   /* desktop nav */
