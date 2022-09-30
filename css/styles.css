@@ -48,6 +48,11 @@ a {
   line-height: 20px;
 }
 
+.button:active {
+  background-color: #2230d2;
+  border-radius: 8px;
+}
+
 nav ul {
   display: none;
 }
