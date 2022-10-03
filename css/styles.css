@@ -299,7 +299,7 @@ button:hover {
   border-top-left-radius: 5rem;
   background: var(--hover-btn);
   max-width: 100%;
-  background-image: url("/images/form-bg.png");
+  background-image: url("./images/form-bg.png");
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 24px;
