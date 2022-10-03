@@ -466,9 +466,12 @@ button:hover {
   }
 
   .compn-lan {
-    grid-template-columns: 1fr 3fr 3fr;
-    gap: 2rem;
+    display: flex;
     margin-top: 1.25rem;
+  }
+
+  .compn-lan ul {
+    gap: 2rem;
   }
 
   .compn-lan li {
@@ -490,7 +493,6 @@ button:hover {
   .technology {
     margin-top: 1.5rem;
   }
-
 
   /* about-me section */
   .me-content {
