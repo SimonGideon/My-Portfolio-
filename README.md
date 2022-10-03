@@ -10,6 +10,11 @@
 - HTML
 - CSS
 - GitHub Actions
+## 🛫 Launch
+ ***[🌐 CLick Here to Launch 🧑‍✈️](https://simongideon.github.io/My-Portfolio-/)***
+### Live Preview
+#### ![preview](https://user-images.githubusercontent.com/61404403/193623052-1ec04b7d-7ea7-47ea-9212-059e1e0775f3.gif)
+
 
 ## Getting Started
 
