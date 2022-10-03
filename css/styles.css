@@ -48,11 +48,6 @@ a {
   line-height: 20px;
 }
 
-.button:active {
-  background-color: #2230d2;
-  border-radius: 8px;
-}
-
 nav ul {
   display: none;
 }
@@ -471,9 +466,12 @@ button:hover {
   }
 
   .compn-lan {
-    grid-template-columns: 1fr 3fr 3fr;
-    gap: 2rem;
+    display: flex;
     margin-top: 1.25rem;
+  }
+
+  .compn-lan ul {
+    gap: 2rem;
   }
 
   .compn-lan li {
@@ -494,10 +492,6 @@ button:hover {
 
   .technology {
     margin-top: 1.5rem;
-  }
-
-  .card button {
-    margin-top: 2.75rem;
   }
 
   /* about-me section */
