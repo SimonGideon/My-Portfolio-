@@ -277,6 +277,12 @@ button {
   color: #253858;
 }
 
+label {
+  visibility: hidden;
+  margin: 1px;
+  font-size: 1px;
+}
+
 .tec-2,
 .tec-3 {
   border-bottom: 1px solid #dfe1e6;
@@ -337,7 +343,8 @@ button:hover {
   list-style: none;
 }
 
-.contact-form li * {
+.contact-form li input,
+.contact-form li textarea {
   border-radius: 8px;
   background: var(--secondary-color);
   margin: 0.5rem;
