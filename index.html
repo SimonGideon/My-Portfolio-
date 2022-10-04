@@ -1,308 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
-    <title>Simon-portfolio</title>
-  </head>
-  <body>
-    <!--header section  -->
-    <header>
-      <div class="nav-menu">
-        <div id="nav-brand">
-          <a href="#">Simon Gideon</a>
-        </div>
-        <nav>
-          <img class="hamburger-btn" src="./images/icon - menu.png" alt="menu-button"/>
-          <ul>
-            <li>
-              <a href="#work">Protfolio</a>
-            </li>
-            <li>
-              <a href="#about-me">About</a>
-            </li>
-            <li>
-              <a href="#contact-me">Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <!--header -->
-    <section id="hero">
-      <div class="headlines">
-        <div class="headline-title">
-          <h1>
-            I’m Simon <br/>
-            Glad to see you!
-          </h1>
-        </div>
-        <div class="hero-text">
-          <p>
-            I’m a software developer! I can help you build a product , feature
-            or website Look through some of my work and experience! If you like
-            what you see and have a project you need coded, don’t hestiate to
-            contact me.
-          </p>
-        </div>
-        <div class="connect">
-          <span>LET’S CONNECT</span>
-        </div>
-        <ul class="social-icons" id="social-icons">
-          <li>
-            <a href="https://twitter.com/Simo_Giddy"><img src="./images/twiter.png" alt="twiter"></a>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <title>Simon-portflio</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand text-primary" href="#">Simon Gideon</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse me-2" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
           </li>
-          <li>
-            <a href="https://linkedin.com/in/mnayi-gideon"><img src="./images/Linkedin icon.png" alt="Linkedin"/></a>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
           </li>
-          <li>
-            <a href="https://github.com/SimonGideon"><img src="./images/git.png" alt="github" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="./images/chill.png" alt="chill"/></a>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
       </div>
-    </section>
-    <!-- section -->
-    <section class="work">
-      <!-- project-1 -->
-      <div class="project-1 projects">
-        <div class="card">
-          <div>
-            <img src="./images/project_1.svg" alt="tonic-project"/>
-          </div>
-          <div>
-            <span><h2>Tonic</h2></span>
-            <div class="compn-lan">
-              <p>CANOPY</p>
-              <ul>
-                <li>Back End Dev</li>
-                <li>2015</li>
-              </ul>
-            </div>
-            <div class="card-body">
-              <p>
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-            </div>
-            <div class="technology">
-              <ul>
-                <li>html</li>
-                <li>css</li>
-                <li>javaScript</li>
-              </ul>
-            </div>
-            <button class="button" type="submit">See Project</button>
-          </div>
-        </div>
-      </div>
-      <!-- project-2 -->
-      <div class="projects">
-        <div class="card">
-          <div>
-            <img src="./images/project_2.png" alt="multi-post stories project"/>
-          </div>
-          <div>
-            <span><h2>Multi-Post Stories</h2></span>
-            <div class="compn-lan">
-              <p>FACEBOOK</p>
-              <ul>
-                <li>Full Stack Dev</li>
-                <li>2015</li>
-              </ul>
-            </div>
-            <div class="card-body">
-              <p>
-                Experimental content creation feature that allows users to add
-                to an existing story over the course of a day without spamming
-                their friends.
-              </p>
-            </div>
-            <div class="technology">
-              <ul>
-                <li>html</li>
-                <li>css</li>
-                <li>javaScript</li>
-              </ul>
-            </div>
-            <button class="button" type="submit" >See Project</button>
-          </div>
-        </div>
-      </div>
-      <!-- project-3 -->
-      <div class="projects">
-        <div class="card">
-          <div><img src="./images/project_3.png" alt="facebook-project" /></div>
-          <div>
-            <span><h2>Facebook 360</h2></span>
-            <div class="compn-lan">
-              <p>FACEBOOK</p>
-              <ul>
-                <li>Full Stack Dev</li>
-                <li>2015</li>
-              </ul>
-            </div>
-            <div class="card-body">
-              <p>
-                Exploring the future of media in Facebook's first Virtual
-                Reality app; a place to discover and enjoy 360 photos and videos
-                on Gear VR.
-              </p>
-            </div>
-            <div class="technology">
-              <ul>
-                <li>html</li>
-                <li>css</li>
-                <li>javaScript</li>
-              </ul>
-            </div>
-            <button class="button" type="submit" >See Project</button>
-          </div>
-        </div>
-      </div>
-      <!-- project-4 -->
-      <div class="projects">
-        <div class="card">
-          <div><img src="./images/project_4.png" alt="user-navigation" /></div>
-          <div>
-            <span><h2>Uber Navigation</h2></span>
-            <div class="compn-lan">
-              <p>UBER</p>
-              <ul>
-                <li>Lead Developer</li>
-                <li>2018</li>
-              </ul>
-            </div>
-            <div class="card-body">
-              <p>
-                A smart assistant to make driving more safe, efficient, and fun
-                by unlocking your most expensive computer: your car.
-              </p>
-            </div>
-            <div class="technology">
-              <ul>
-                <li>html</li>
-                <li>css</li>
-                <li>javaScript</li>
-              </ul>
-            </div>
-            <button class="button" type="submit" >See Project</button>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- About-section -->
-    <section id="about-me" class="about-me">
-      <div class="me-content">
-        <div class="sub-cont">
-          <div>
-            <span id="span">
-                <h2>
-                About <br/>
-                Myself
-              </h2></span>
-            <div class="about-details">
-              <p>
-                Hello I’m a software developer! I can help you build a product ,
-                feature or website Look through some of my work and experience!
-                If you like what you see and have a project you need coded,
-                don’t hestiate to contact me.
-              </p>
-            </div>
-            <div class="connect">
-              <span>LET’S CONNECT</span>
-            </div>
-            <div>
-              <ul class="social-icons" id="social-icons">
-                <li>
-                  <a href="https://twitter.com/Simo_Giddy"><img src="./images/twiter.png" alt="twiter"/></a>
-                </li>
-                <li>
-                  <a href="https://linkedin.com/in/mnayi-gideon"><img src="./images/Linkedin icon.png" alt="Linkedin"/></a>
-                </li>
-                <li>
-                  <a href="#"><img src="./images/git.png" alt="github" /></a>
-                </li>
-                <li>
-                  <a href="#"><img src="./images/chill.png" alt="chill"/></a>
-                </li>
-              </ul>
-            </div>
-            <button class="button" type="submit">Get my resume</button>
-          </div>
-          <!-- technology section -->
-          <div class="technology-lan">
-            <ul>
-              <li class="tec-list tec-1">
-                Language
-                <span><img src="./images/Icon-Chevron-Down-Larger.svg" alt="drop-down arrow"/></span>
-              </li>
-              <li class="tec-list">
-                <ul class="inner-list">
-                  <li class="nest-sub-list">
-                  <img src="./images/js.png" alt="javaScript" />
-                    <span>javaScript</span>
-                  </li>
-                  <li class="nest-sub-list">
-                    <img src="./images/html.png" alt="html" />
-                    <span>HTML</span>
-                  </li>
-                  <li class="nest-sub-list">
-                    <img src="./images/css.png" alt="css" />
-                    <span>CSS</span>
-                  </li>
-                </ul>
-              </li>
-              <li class="tec-list tec-2">
-                Frameworks
-                <span
-                  ><img src="./images/Icon-Chevron-Down-Larger.svg" alt="drop-down"/></span>
-              </li>
-              <li class="tec-list tec-3">
-                Skills
-                <span><img src="./images/Icon-Chevron-Down-Larger.svg" alt="drop-down"/></span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- contact-section -->
-    <section id="contact-me">
-      <div class="wrapper" id="wrapper">
-        <div class="contact-header">
-          <span>Contact me</span>
-          <p>
-            If you have an application you are interested in developing, a
-            feature that you need built or a project that needs coding. I'd love
-            to help with it
-          </p>
-        </div>
-        <div class="contact-form">
-          <form action="https://formspree.io/f/moqrolqj" method="post">
-            <ul>
-              <li>
-                <label>Username</label>
-                <input
-                  type="text" id="name" name="name" placeholder="user name" maxlength="30" required/>
-              </li>
-              <li>
-                <label>email-address</label>
-                <input type="email" id="email" name="email" placeholder="example@email.com" required/>
-              </li>
-              <li>
-                <label>message</label>
-                <textarea type="text" id="name" name="name" placeholder="write your message here" maxlength="500" required ></textarea>
-              </li>
-            </ul>
-            <button class="btn" type="submit">Get it Touch</button>
-          </form>
-        </div>
-      </div>
-    </section>
-  </body>
+    </div>
+  </nav>
+</body>
+<script src="./js/bootstrap.min.js"></script>
 </html>
