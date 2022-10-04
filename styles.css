@@ -271,10 +271,16 @@ button {
   align-items: center;
   gap: 1em;
   margin: 0.5em;
-  background-color: var(--fade-bg);
+  background-color: #f7f7f9;
   padding: 0.56em;
   border-radius: 8px;
   color: #253858;
+}
+
+label {
+  visibility: hidden;
+  margin: 1px;
+  font-size: 1px;
 }
 
 .tec-2,
@@ -293,6 +299,10 @@ button:hover {
   margin-left: calc(+2%);
   background-color: #6070ff;
   color: white;
+}
+
+.contact-form .btn {
+  margin-left: 13px !important;
 }
 
 .wrapper {
@@ -337,7 +347,8 @@ button:hover {
   list-style: none;
 }
 
-.contact-form li * {
+.contact-form li input,
+.contact-form li textarea {
   border-radius: 8px;
   background: var(--secondary-color);
   margin: 0.5rem;
@@ -376,6 +387,7 @@ button:hover {
   color: var(--primary-color);
   animation-name: anime;
   animation-duration: 4s;
+  font-size: 18px;
 }
 
 /* Desktop-View */
@@ -395,8 +407,8 @@ button:hover {
     display: flex;
     list-style: none;
     gap: 2rem;
-    color: var(--p-txt-color);
-    font-size: 1.5rem;
+    color: #344563;
+    font-size: 15px;
     font-weight: 500;
   }
 
@@ -418,14 +430,14 @@ button:hover {
   }
 
   .headlines h1 {
-    font-size: 5vw;
+    font-size: 3vw;
     font-weight: 700;
     line-height: normal;
   }
 
   .hero-text {
     font-weight: 400;
-    font-size: 1.7vw;
+    font-size: 1.25vw;
   }
 
   /* desktop social icons */
@@ -531,6 +543,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     min-width: 7.5vw;
+    align-items: flex-start;
   }
 
   .tec-1 {
