@@ -271,7 +271,7 @@ button {
   align-items: center;
   gap: 1em;
   margin: 0.5em;
-  background-color: var(--fade-bg);
+  background-color: #f7f7f9;
   padding: 0.56em;
   border-radius: 8px;
   color: #253858;
@@ -387,6 +387,7 @@ button:hover {
   color: var(--primary-color);
   animation-name: anime;
   animation-duration: 4s;
+  font-size: 18px;
 }
 
 /* Desktop-View */
@@ -429,14 +430,14 @@ button:hover {
   }
 
   .headlines h1 {
-    font-size: 5vw;
+    font-size: 3vw;
     font-weight: 700;
     line-height: normal;
   }
 
   .hero-text {
     font-weight: 400;
-    font-size: 1.7vw;
+    font-size: 1.25vw;
   }
 
   /* desktop social icons */
@@ -542,6 +543,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     min-width: 7.5vw;
+    align-items: flex-start;
   }
 
   .tec-1 {
