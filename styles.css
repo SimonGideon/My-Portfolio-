@@ -301,6 +301,10 @@ button:hover {
   color: white;
 }
 
+.contact-form .btn{
+  margin-left: 13px!important;
+}
+
 .wrapper {
   border-top-left-radius: 5rem;
   background: var(--hover-btn);
@@ -402,8 +406,8 @@ button:hover {
     display: flex;
     list-style: none;
     gap: 2rem;
-    color: var(--p-txt-color);
-    font-size: 1.5rem;
+    color: #344563;
+    font-size: 15px;
     font-weight: 500;
   }
 
