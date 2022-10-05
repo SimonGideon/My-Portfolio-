@@ -34,7 +34,7 @@ body {
   font-family: var(--font-fam);
 }
 
-a {
+#a {
   text-decoration: none;
 }
 
@@ -46,6 +46,10 @@ a {
   font-weight: 700;
   font-size: 1.5 rem;
   line-height: 20px;
+}
+
+.card {
+  position: relative !important;
 }
 
 nav ul {
