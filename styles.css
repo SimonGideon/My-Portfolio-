@@ -73,7 +73,7 @@ header {
 
 #hero {
   display: flex;
-  background-image: url(/images/header-bg.png);
+  background-image: url(./images/header-bg.png);
   height: 42rem;
   background-repeat: no-repeat;
   background-color: var(--secondary-color);
@@ -271,10 +271,16 @@ button {
   align-items: center;
   gap: 1em;
   margin: 0.5em;
-  background-color: var(--fade-bg);
+  background-color: #f7f7f9;
   padding: 0.56em;
   border-radius: 8px;
   color: #253858;
+}
+
+label {
+  visibility: hidden;
+  margin: 1px;
+  font-size: 1px;
 }
 
 .tec-2,
@@ -295,11 +301,15 @@ button:hover {
   color: white;
 }
 
+.contact-form .btn {
+  margin-left: 13px !important;
+}
+
 .wrapper {
   border-top-left-radius: 5rem;
   background: var(--hover-btn);
   max-width: 100%;
-  background-image: url("/images/form-bg.png");
+  background-image: url("./images/form-bg.png");
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 24px;
@@ -337,7 +347,8 @@ button:hover {
   list-style: none;
 }
 
-.contact-form li * {
+.contact-form li input,
+.contact-form li textarea {
   border-radius: 8px;
   background: var(--secondary-color);
   margin: 0.5rem;
@@ -376,6 +387,7 @@ button:hover {
   color: var(--primary-color);
   animation-name: anime;
   animation-duration: 4s;
+  font-size: 18px;
 }
 
 /* Desktop-View */
@@ -395,8 +407,8 @@ button:hover {
     display: flex;
     list-style: none;
     gap: 2rem;
-    color: var(--p-txt-color);
-    font-size: 1.5rem;
+    color: #344563;
+    font-size: 15px;
     font-weight: 500;
   }
 
@@ -407,7 +419,7 @@ button:hover {
   /* hero-section */
   #hero {
     display: flex;
-    background-image: url(/images/desktop-header-bg.svg);
+    background-image: url(./images/desktop-header-bg.svg);
     background-size: 100%;
     height: 110vh;
     margin-bottom: 3rem;
@@ -418,14 +430,14 @@ button:hover {
   }
 
   .headlines h1 {
-    font-size: 5vw;
+    font-size: 3vw;
     font-weight: 700;
     line-height: normal;
   }
 
   .hero-text {
     font-weight: 400;
-    font-size: 1.7vw;
+    font-size: 1.25vw;
   }
 
   /* desktop social icons */
@@ -460,7 +472,7 @@ button:hover {
   }
 
   .card h2 {
-    margin-top: 3rem;
+    margin-top: 1rem;
     font-weight: 700;
     font-size: 3.5vw;
   }
@@ -531,6 +543,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     min-width: 7.5vw;
+    align-items: flex-start;
   }
 
   .tec-1 {
@@ -589,7 +602,7 @@ button:hover {
   }
 
   #wrapper {
-    background-image: url(/images/desktop_contact.svg);
+    background-image: url(./images/desktop_contact.svg);
   }
 
   /* reverse the nth child of project */
