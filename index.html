@@ -10,12 +10,20 @@
   <body>
     <!--header section  -->
     <header>
+      <div id="mobile-nav" class="mobile_nav-container bg-color hidden">
+        <img id="close-menu" src="./images/icn-close.png" alt="close button">
+        <ul class="mobile__nav">
+          <li><a class="mobile-navbar-item" id="mobile__nav_portfolio" href="#work">Protfolio</a></li>
+          <li><a class="mobile-navbar-item" id="mobile__nav_about" href="#about-me">About</a></li>
+          <li><a class="mobile-navbar-item" id="mobile__nav_contact" href="#contact-me">Contact</a></li>
+        </ul>
+      </div>
       <div class="nav-menu">
         <div id="nav-brand">
           <a href="#">Simon Gideon</a>
         </div>
         <nav>
-          <div class="hambuger" onclick="myFunction()">
+          <div id="navbar-hamburger" class="hambuger">
             <span class="bar" id="bar-1"></span>
             <span class="bar" id="bar-2"></span>
             <span class="bar" id="bar-3"></span>
@@ -357,6 +365,6 @@
         </div>
       </div>
     </section>
-    <script src="main.js"></script>
+    <script src='main.js'></script>
   </body>
 </html>
