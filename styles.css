@@ -57,14 +57,8 @@ nav ul {
   width: 25px;
   height: 3px;
   margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: #2230d2;
-}
-
-.hambuger {
-  margin-right: 14px;
-  position: sticky;
+  transition: all 0.5s ease-in-out;
+  background-color: var(--hover-btn);
 }
 
 /* header section */
@@ -312,7 +306,7 @@ label {
 button:hover {
   transform: scale(1.2);
   margin-left: calc(+2%);
-  background-color: #6070ff;
+  background-color: var(--hover-btn);
   color: white;
 }
 
@@ -409,6 +403,10 @@ button:hover {
 @media (min-width: 768px) {
   /* desktop nav */
   nav img {
+    display: none;
+  }
+
+  .hambuger {
     display: none;
   }
 
