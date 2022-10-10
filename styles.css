@@ -93,7 +93,7 @@ header {
 
 .menu-items {
   position: absolute;
-  display: block;
+  display: flex;
   top: 0;
   gap: 0;
   left: 0;
@@ -105,6 +105,20 @@ header {
   transition: 0.5s;
   filter: drop-shadow(20px);
   opacity: 0.95;
+  align-items: center;
+}
+
+
+.image-close img {
+  filter: opacity(100%);
+  width: 1.5rem;
+}
+.nav-items a {
+  color: white;
+}
+
+.nav-list li {
+  list-style: none;
 }
 
 
