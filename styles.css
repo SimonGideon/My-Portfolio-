@@ -62,20 +62,6 @@ nav ul {
 }
 
 
-.hambuger.active .bar:nth-child(2) {
-  opacity: 0;
-}
-
-.hambuger.active .bar:nth-child(1) {
-  transform: rotate(45deg) translateY(11px);
-  background-color: #fff;
-}
-
-.hambuger.active .bar:nth-child(3) {
-  transform: rotate(-45deg) translateY(-11px);
-  background-color: #fff;
-}
-
 /* header section */
 
 header {
