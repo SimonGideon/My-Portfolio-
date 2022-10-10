@@ -67,7 +67,6 @@ nav ul {
 header {
   position: fixed;
   background-color: var(--secondary-color);
-  border: 3px solid var(--secondary-color);
   width: 100%;
   top: 0.1px;
 }
@@ -93,7 +92,7 @@ header {
 
 .menu-items {
   position: absolute;
-  display: flex;
+  display: none;
   top: 0;
   gap: 0;
   left: 0;
@@ -105,20 +104,25 @@ header {
   transition: 0.5s;
   filter: drop-shadow(20px);
   opacity: 0.95;
-  align-items: center;
+  align-items: flex-start;
+  padding-top: 6.625rem;
 }
 
 
 .image-close img {
   filter: opacity(100%);
-  width: 1.5rem;
+  width: 4vw;
 }
 .nav-items a {
   color: white;
+  font-weight: 600;
+  font-size: 2rem;
 }
+
 
 .nav-list li {
   list-style: none;
+  margin-bottom: 2.5rem;
 }
 
 
