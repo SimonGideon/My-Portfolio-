@@ -966,7 +966,7 @@ button:hover {
     text-align: left;
     padding-top: 1em;
   }
-  
+
   .mdl-fullscreen .mdl-text .left-grid {
     color: var(--p-txt-color);
     grid-column-start: 1;
