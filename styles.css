@@ -553,6 +553,7 @@ button:hover {
   grid-template-rows: 2fr 2fr 2fr 2fr 2fr 1fr;
   box-sizing: border-box;
   align-items: center;
+  padding: 24px;
 }
 
 .wrapper .wrapper-head {
@@ -936,7 +937,7 @@ button:hover {
     position: inherit;
     grid-column-start: 1;
     grid-column-end: 3;
-    width: 70%;
+    width: 100%;
     margin: 1% auto;
   }
 
