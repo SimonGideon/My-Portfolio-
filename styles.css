@@ -555,7 +555,7 @@ body {
 
 .overlay .wrapper {
   position: relative;
-  width: 90%;
+  width: 80%;
   height: 97%;
   background: white;
   border-radius: 8px;
@@ -704,6 +704,11 @@ body {
     gap: 2rem;
     color: #344563;
     font-size: 15px;
+    font-weight: 500;
+  }
+
+  .menu-items a {
+    font-size: 1rem;
     font-weight: 500;
   }
 
@@ -922,7 +927,7 @@ body {
   }
 
   .work-image-large img {
-    width: 100%;
+    width: 70%;
     transition: all 0.5s ease;
   }
 
@@ -950,9 +955,9 @@ body {
 
   .mdl-fullscreen .work-image-large {
     position: inherit;
-    /* grid-column-start: 1;
-    grid-column-end: 3; */
-    width: 60%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 70%;
     margin: 1% auto;
   }
 
