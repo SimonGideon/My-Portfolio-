@@ -939,6 +939,7 @@ button:hover {
     width: 70%;
     margin: 1% auto;
   }
+
   .mdl-fullscreen {
     width: 100%;
     display: flex;
@@ -965,6 +966,7 @@ button:hover {
     text-align: left;
     padding-top: 1em;
   }
+  
   .mdl-fullscreen .mdl-text .left-grid {
     color: var(--p-txt-color);
     grid-column-start: 1;
