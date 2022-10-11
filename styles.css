@@ -107,8 +107,8 @@ header {
 }
 
 .mobile_nav-container img {
-  width: 24px;
-  height: 24px;
+  width: 0.875rem;
+  height: 0.875rem;
   position: absolute;
   top: 34px;
   right: 24px;
@@ -127,12 +127,15 @@ header {
   width: 85%;
   list-style-type: none;
   padding: 24px 24px;
+  height: 80px;
 }
 
 .mobile-navbar-item {
   color: white;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 32px;
+  line-height: 44px;
+  height: 24px;
   text-decoration: none;
 }
 
