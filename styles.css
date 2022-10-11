@@ -44,7 +44,7 @@ a {
   color: var(--primary-color);
   font-family: var(--font-fam);
   font-weight: 700;
-  font-size: 1.5 rem;
+  font-size: 1.5rem;
   line-height: 20px;
 }
 
@@ -52,12 +52,20 @@ nav ul {
   display: none;
 }
 
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.5s ease-in-out;
+  background-color: var(--hover-btn);
+}
+
 /* header section */
 
 header {
   position: fixed;
   background-color: var(--secondary-color);
-  border: 3px solid var(--secondary-color);
   width: 100%;
   top: 0.1px;
 }
@@ -69,8 +77,69 @@ header {
   align-items: center;
 }
 
-/* hero section */
+.nav-item {
+  margin: 16px 0;
+}
 
+.nav-menu.active {
+  left: 0;
+}
+
+.bar.active {
+  left: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.mobile_nav-container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  mix-blend-mode: normal;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+}
+
+.bg-color {
+  background: #6070ff;
+  opacity: 0.95;
+}
+
+.mobile_nav-container img {
+  width: 0.875rem;
+  height: 0.875rem;
+  position: absolute;
+  top: 34px;
+  right: 24px;
+}
+
+.mobile__nav {
+  width: 90%;
+  position: absolute;
+  top: 68px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobile__nav li {
+  width: 85%;
+  list-style-type: none;
+  padding: 24px 24px;
+  height: 80px;
+}
+
+.mobile-navbar-item {
+  color: white;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  height: 24px;
+  text-decoration: none;
+}
+
+/* hero section */
 #hero {
   display: flex;
   background-image: url(./images/header-bg.png);
@@ -205,7 +274,6 @@ button {
   border-radius: 8px;
   color: var(--primary-color);
   padding: 0.75em;
-  transform: 10s;
 }
 
 .card button {
@@ -297,7 +365,7 @@ label {
 button:hover {
   transform: scale(1.2);
   margin-left: calc(+2%);
-  background-color: #6070ff;
+  background-color: var(--hover-btn);
   color: white;
 }
 
@@ -394,6 +462,10 @@ button:hover {
 @media (min-width: 768px) {
   /* desktop nav */
   nav img {
+    display: none;
+  }
+
+  .hambuger {
     display: none;
   }
 
@@ -498,6 +570,7 @@ button:hover {
   }
 
   .card-body {
+    /* stylelint-disable-next-line csstree/validator */
     margin-top: 2;
     font-size: 1.2vw;
   }

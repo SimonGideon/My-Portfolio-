@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.port": 5502
+    "liveServer.settings.port": 5502,
+    "livePreview.defaultPreviewPath": "/home/simon/Documents/Microverse/My-Portfolio-/index.html"
 }
