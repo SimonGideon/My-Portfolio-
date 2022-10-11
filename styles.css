@@ -932,20 +932,19 @@ button:hover {
     font-size: 12px;
   }
 
-  .mdl-fullscreen {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-top: 10px;
-  }
-
   .mdl-fullscreen .work-image-large {
     position: inherit;
     grid-column-start: 1;
     grid-column-end: 3;
     width: 70%;
     margin: 1% auto;
+  }
+  .mdl-fullscreen {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 10px;
   }
 
   .mdl-fullscreen .work-image-large img:hover {
@@ -960,19 +959,18 @@ button:hover {
     margin-top: 1.5em;
   }
 
+  .mdl-fullscreen .mdl-text .right-grid {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: left;
+    padding-top: 1em;
+  }
   .mdl-fullscreen .mdl-text .left-grid {
     color: var(--p-txt-color);
     grid-column-start: 1;
     grid-column-end: 2;
     padding: 0 0.5em 0 1em;
     font-size: 10px;
-  }
-
-  .mdl-fullscreen .mdl-text .right-grid {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    text-align: left;
-    padding-top: 1em;
   }
 
   .mdl-fullscreen .mdl-text .right-grid p {
