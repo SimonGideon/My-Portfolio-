@@ -280,23 +280,3 @@ function popup() {
     window.open(worksArray[j].sourceBtn);
   });
 }
-
-btn1.addEventListener('click', () => {
-  j = 0;
-  popup();
-});
-
-btn2.addEventListener('click', () => {
-  j = 1;
-  popup();
-});
-
-btn3.addEventListener('click', () => {
-  j = 2;
-  popup();
-});
-
-btn4.addEventListener('click', () => {
-  j = 3;
-  popup();
-});
