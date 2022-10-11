@@ -917,6 +917,7 @@ button:hover {
 
   .work-image-large {
     display: flex;
+    justify-content: center;
     margin: 1%;
   }
 
@@ -938,7 +939,7 @@ button:hover {
     grid-column-start: 1;
     grid-column-end: 3;
     width: 100%;
-    margin: 1% auto;
+    margin: auto;
   }
 
   .mdl-fullscreen {
