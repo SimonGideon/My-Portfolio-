@@ -378,6 +378,11 @@ button:hover {
   margin-left: 13px !important;
 }
 
+.error {
+  color: red;
+  margin: auto;
+}
+
 .wrapped {
   border-top-left-radius: 5rem;
   background: var(--hover-btn);

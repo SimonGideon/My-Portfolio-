@@ -21,8 +21,10 @@ const worksArray = [
     subheadText3: '2015',
     image1: './images/another1.svg',
     image2: './images/pop-up.png',
-    paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    paragraph2: 'the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    paragraph:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    paragraph2:
+      "the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     language1: 'html',
     language2: 'css',
     language3: 'javaScript',
@@ -42,8 +44,10 @@ const worksArray = [
     subheadText3: '2015',
     image1: './images/work2.svg',
     image2: './images/pop-up.png',
-    paragraph: 'Lorem Ipsums is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    paragraph2: 'the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    paragraph:
+      "Lorem Ipsums is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    paragraph2:
+      "the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     language1: 'html',
     language2: 'css',
     language3: 'javaScript',
@@ -63,8 +67,10 @@ const worksArray = [
     subheadText3: '2015',
     image1: './images/project_3.png',
     image2: './images/pop-up.png',
-    paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    paragraph2: 'the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    paragraph:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    paragraph2:
+      "the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     language1: 'html',
     language2: 'css',
     language3: 'javaScript',
@@ -84,8 +90,10 @@ const worksArray = [
     subheadText3: '2015',
     image1: './images/project_4.png',
     image2: './images/pop-up.png',
-    paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    paragraph2: 'the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    paragraph:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    paragraph2:
+      "the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     language1: 'html',
     language2: 'css',
     language3: 'javaScript',
@@ -250,9 +258,15 @@ function popup() {
   seeSourceBtn.appendChild(seeSourceI);
   document.querySelector('.wrapper-head h2').textContent = worksArray[j].title;
   document.querySelector('.close-btn').textContent = worksArray[j].close;
-  document.querySelector('.wrapper-sub-head .work-subtext .canopy').textContent = worksArray[j].subheadText1;
-  document.querySelector('.wrapper-sub-head .work-subtext .description').textContent = worksArray[j].subheadText2;
-  document.querySelector('.wrapper-sub-head .work-subtext .description2').textContent = worksArray[j].subheadText3;
+  document.querySelector(
+    '.wrapper-sub-head .work-subtext .canopy',
+  ).textContent = worksArray[j].subheadText1;
+  document.querySelector(
+    '.wrapper-sub-head .work-subtext .description',
+  ).textContent = worksArray[j].subheadText2;
+  document.querySelector(
+    '.wrapper-sub-head .work-subtext .description2',
+  ).textContent = worksArray[j].subheadText3;
   document.querySelector('.wrapper-img .work-image img').src = worksArray[j].image1;
   document.querySelector('.mdl-fullscreen .work-image-large img').src = worksArray[j].image2;
   document.querySelector('.wrapper-text .long-paragraph').textContent = worksArray[j].paragraph;
@@ -298,4 +312,36 @@ btn3.addEventListener('click', () => {
 btn4.addEventListener('click', () => {
   j = 3;
   popup();
+});
+
+// form validation
+const contactForm = document.querySelector('form');
+const emailValidation = document.getElementById('email');
+const error = document.querySelector('.error');
+
+function mailValidation(input) {
+  const low = input.toLowerCase();
+
+  if (input !== low) {
+    error.innerText = 'Check your email format and try';
+    error.className = 'alert error';
+    document.getElementById('email').style.border = '3px solid red';
+    document.getElementById('email').style.boxShadow = 'box-shadow: 0 0 10px red;';
+    return 0;
+  }
+  if (input === low) {
+    error.innerText = 'Submitted Succesfully';
+    error.className = 'alert success';
+    return 1;
+  }
+
+  return null;
+}
+
+contactForm.addEventListener('submit', (e) => {
+  if (mailValidation(emailValidation.value) === 0) {
+    e.preventDefault();
+  } else {
+    e.run();
+  }
 });
