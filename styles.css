@@ -380,7 +380,7 @@ button:hover {
 
 .error {
   color: red;
-  align-self: center;
+  margin: auto;
 }
 
 .wrapped {
