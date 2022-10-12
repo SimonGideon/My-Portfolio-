@@ -1,15 +1,15 @@
 // mobile-menu
-const navOpen = document.getElementById('navbar-hamburger');
-const mobileNav = document.getElementById('mobile-nav');
-const navClose = document.getElementById('close-menu');
-const navPortfolio = document.getElementById('mobile__nav_portfolio');
-const navAbout = document.getElementById('mobile__nav_about');
-const navContact = document.getElementById('mobile__nav_contact');
+const navOpen = document.getElementById("navbar-hamburger");
+const mobileNav = document.getElementById("mobile-nav");
+const navClose = document.getElementById("close-menu");
+const navPortfolio = document.getElementById("mobile__nav_portfolio");
+const navAbout = document.getElementById("mobile__nav_about");
+const navContact = document.getElementById("mobile__nav_contact");
 // pop-up
-const btn1 = document.getElementById('wkbtn1');
-const btn2 = document.getElementById('wkbtn2');
-const btn3 = document.getElementById('wkbtn3');
-const btn4 = document.getElementById('wkbtn4');
+const btn1 = document.getElementById("wkbtn1");
+const btn2 = document.getElementById("wkbtn2");
+const btn3 = document.getElementById("wkbtn3");
+const btn4 = document.getElementById("wkbtn4");
 
 const worksArray = [
   {
