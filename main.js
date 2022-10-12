@@ -299,3 +299,35 @@ btn4.addEventListener('click', () => {
   j = 3;
   popup();
 });
+
+// form validation
+const contactForm = document.querySelector('form');
+const emailValidation = document.getElementById('email');
+const error = document.querySelector('.error');
+
+function mailValidation(input) {
+  const low = input.toLowerCase();
+
+  if (input !== low) {
+    error.innerText = 'Check your email format and try';
+    error.className = 'alert error';
+    document.getElementById('email').style.border = '3px solid red';
+    document.getElementById('email').style.boxShadow = 'box-shadow: 0 0 10px red;';
+    return 0;
+  }
+  if (input === low) {
+    error.innerText = 'Submitted Succesfully';
+    error.className = 'alert success';
+    return 1;
+  }
+
+  return null;
+}
+
+contactForm.addEventListener('submit', (e) => {
+  if (mailValidation(emailValidation.value) === 0) {
+    e.preventDefault();
+  } else {
+    e.run();
+  }
+});
