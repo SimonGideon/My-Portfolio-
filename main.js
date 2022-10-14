@@ -226,7 +226,7 @@ function popup() {
   wrapperImageDiv.appendChild(workImageDiv);
   workImageDiv.appendChild(imageItem1);
   wrapperDiv.appendChild(wrapperTextDiv);
-  wrapperTextDiv.appendChild(wremailValidationapperTextP1);
+  wrapperTextDiv.appendChild(wrapperTextP1);
   wrapperTextDiv.appendChild(wrapperTextP2);
   wrapperTextP2.appendChild(p2Span1);
   wrapperTextP2.appendChild(p2Span2);
@@ -339,7 +339,7 @@ function mailValidation(input) {
 }
 
 contactForm.addEventListener('submit', (e) => {
-  if (mailValidation(emalValidation.value) === 0) {
+  if (mailValidation(emailValidation.value) === 0) {
     e.preventDefault();
   } else {
     e.run();
