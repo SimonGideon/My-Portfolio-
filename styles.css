@@ -432,7 +432,7 @@ button:hover {
   margin: 0.5rem;
   border: 1px solid #cfd8dc;
   height: 3rem;
-  width: 18.75rem;
+  width: 100%;
   padding: 15px;
   font-weight: 400;
   font-size: 1rem;
