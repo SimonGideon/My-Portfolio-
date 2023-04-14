@@ -317,7 +317,7 @@ const error = document.querySelector('.error');
 function mailValidation(input) {
   const low = input.toLowerCase();
 
-  if (input !== low) {
+  if (input === low) {
     error.innerText = 'Check your email format and try';
     error.className = 'alert error';
     document.getElementById('email').style.border = '3px solid red';
@@ -335,7 +335,7 @@ function mailValidation(input) {
 
 contactForm.addEventListener('submit', (e) => {
   if (mailValidation(emailValidation.value) === 0) {
-    e.preventDefault();
+    e.preventDefault('submit');
   } else {
     e.run();
   }
