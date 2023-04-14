@@ -98,6 +98,27 @@ const worksArray = [
     liveBtn: 'https://space-travelers-iyfi.onrender.com/',
     sourceBtn: 'https://github.com/SimonGideon/-React-capstone-project.git',
   },
+
+  {
+    id: '4',
+    title: 'Recipe App',
+    close: '\u00D7',
+    subheadText1: 'Recipe Centre App',
+    subheadText2: 'Fullstack Developer',
+    subheadText3: '2023',
+    image1: './images/project_5.jpeg',
+    image2: './images/project_5.jpeg',
+    paragraph:
+      "The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate",
+    paragraph2:
+      "a shopping list based on what you have and what you are missing from a recipe. All logged in users can share, create and Update Recipes. They can also share private recipe",
+    language1: 'Ruby',
+    language2: 'Rails',
+    language3: 'CSS',
+    language4: 'HTML',
+    liveBtn: ' https://github.com/SimonGideon/ROR-RECIPE-APP',
+    sourceBtn: 'https://github.com/SimonGideon/ROR-RECIPE-APP',
+  }
 ];
 
 function showNavbar() {
